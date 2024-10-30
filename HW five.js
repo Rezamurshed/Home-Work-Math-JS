@@ -7,6 +7,17 @@ function addNumbers(p1, p2) {
 }
 addNumbers(20, 30);
 
+// OR OR OR OR OR OR OR OR OR OR OR OR 
+
+let total=0;
+function addNumbers (num1, num2){
+    total=num1+num2;
+    return total; 
+}
+addNumbers(20,30);
+console.log (total);
+
+
 
 // Write a function called sumUpToN that takes a number n and returns the sum of all numbers from 1 to n. Use a loop.
 console.log ("Answer the Q 2")

@@ -34,8 +34,7 @@ console.log(result);
 // OR OR OR OR OR OR OR OR OR OR OR OR 
 
 let total=0;
-function sumUpToN(n) {
-    // let total = 0;
+function sumUpToN(n) {    
     for (let i = 1; i <= n; i++) {
         total += i;
     }

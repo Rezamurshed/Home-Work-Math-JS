@@ -17,6 +17,18 @@ function addNumbers (num1, num2){
 addNumbers(20,30);
 console.log (total);
 
+// OR OR OR OR OR OR OR OR OR OR OR OR 
+
+let total=0;
+function sumUpToN(n) {
+    // let total = 0;
+    for (let i = 1; i <= n; i++) {
+        total += i;
+    }
+    return total;
+}
+sumUpToN(5);
+console.log(total);
 
 
 // Write a function called sumUpToN that takes a number n and returns the sum of all numbers from 1 to n. Use a loop.

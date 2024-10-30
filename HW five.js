@@ -17,20 +17,6 @@ function addNumbers (num1, num2){
 addNumbers(20,30);
 console.log (total);
 
-// OR OR OR OR OR OR OR OR OR OR OR OR 
-
-let total=0;
-function sumUpToN(n) {
-    // let total = 0;
-    for (let i = 1; i <= n; i++) {
-        total += i;
-    }
-    return total;
-}
-sumUpToN(5);
-console.log(total);
-
-
 // Write a function called sumUpToN that takes a number n and returns the sum of all numbers from 1 to n. Use a loop.
 console.log ("Answer the Q 2")
  
@@ -44,6 +30,20 @@ function sumUpToN(n) {
 }
 let result = sumUpToN(5);
 console.log(result);
+
+// OR OR OR OR OR OR OR OR OR OR OR OR 
+
+let total=0;
+function sumUpToN(n) {
+    // let total = 0;
+    for (let i = 1; i <= n; i++) {
+        total += i;
+    }
+    return total;
+}
+sumUpToN(5);
+console.log(total);
+
 
 // Write a function called sumArray that takes an array of numbers as a parameter and returns the sum of all the numbers in the array
 console.log("Answer the Q 3")
